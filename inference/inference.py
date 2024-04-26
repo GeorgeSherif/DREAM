@@ -8,6 +8,8 @@ print("Done Importing")
 
 parser = argparse.ArgumentParser(description='Merge two data files on sentence ID.')
 parser.add_argument('data', help='Path to the MSA to Dialect file.')
+parser.add_argument('model')
+
 args = parser.parse_args()
 
 # Define a dictionary mapping dialect abbreviations to their full names
@@ -16,7 +18,7 @@ dialects = {
 }
 
 print("Loading the model")
-checkpoint = "bigscience/mt0-base"
+checkpoint = args.model
 save_name = checkpoint.split("/")[1]
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, torch_dtype="auto", device_map="auto")
