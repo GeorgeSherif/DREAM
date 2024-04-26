@@ -1,0 +1,8 @@
+pandas
+torch
+transformers
+nltk
+tqdm
+datasets
+scikit-learn
+openai
