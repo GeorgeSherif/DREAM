@@ -7,4 +7,3 @@ hyperparametertuning.py
 Data_Augmentation.ipynb
 *.csv
 /finetuning/results
-*.tsv
