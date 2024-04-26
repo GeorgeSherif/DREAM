@@ -15,5 +15,5 @@ Simply run `bash AraBERT.sh`.
 ### Running inference on mt0-small and mt0-base
   1) `cd inference`
   2) Adjust the run_inference.sh file. Change the model as your preference and the paths if you are testing using a different dialect than Egyptian.
-  3) run `bash run_inference.sh`
+  3) `bash run_inference.sh`
 
