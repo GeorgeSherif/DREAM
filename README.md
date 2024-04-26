@@ -13,6 +13,7 @@ Adjust AraBERT.sh with the desired settings as follows:
 Simply run `bash AraBERT.sh`.
 
 ### Running inference on mt0-small and mt0-base
-`cd inference`
-Adjust the run_inference.sh file line 3. Change the model as your preference and the paths if you are testing using a different dialect than Egyptian.
-run `bash run_inference.sh`
+  1) `cd inference`
+  2) Adjust the run_inference.sh file. Change the model as your preference and the paths if you are testing using a different dialect than Egyptian.
+  3) run `bash run_inference.sh`
+
