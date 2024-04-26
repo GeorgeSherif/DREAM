@@ -2,7 +2,7 @@
 This project aims to improve the capabilities of Large Language Models for rewriting MSA text to Arabic dialects. In this project, we use MADAR corpus as the backbone dataset, while augmenting it with extra generated data using ChatGPT 4.
 
 ## How to run the code
-### Prelimnary steps
+###  Preliminary steps 
   1) `conda create -n DREAM python==3.10.0`
   2) `conda activate DREAM`
   3) `pip install -r requirements.txt`
