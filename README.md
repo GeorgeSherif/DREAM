@@ -3,4 +3,4 @@ This project aims to improve the capabilities of Large Language Models for rewri
 
 ## How to run the code
 ### Generating new samples
-1- Add your openAI key in the Data_Augmentation.py and modify the prompt to the desired dialects, and simply run it using python Data_Augmentation.py.
+Add your openAI key in the Data_Augmentation.py and modify the prompt to the desired dialects, and simply run it using python Data_Augmentation.py.
