@@ -4,7 +4,8 @@ This project aims to improve the capabilities of Large Language Models for rewri
 ## How to run the code
 ### Hardware
 For some scripts in this repo we used RTX-4090 such as for all the notebooks in the inference directory and the ones in the main directory.
-For the scripts in the finetuning directory, we used A100 GPU.
+For the scripts in the finetuning directory, we used a single A100 GPU.
+
 
 ###  Preliminary steps 
   1) `conda create -n DREAM python==3.10.0`
