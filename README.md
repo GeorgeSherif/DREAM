@@ -1,5 +1,9 @@
 # DREAM 💭: Dialect Rewriting Enhancement for Arabic-pretrained Models
-This project aims to improve the capabilities of Large Language Models for rewriting MSA text to Arabic dialects. In this project, we use MADAR corpus as the backbone dataset, while augmenting it with extra generated data using ChatGPT 4.
+This project aims to improve the capabilities of Large Language Models for rewriting MSA text to Arabic dialects. In this project, we use MADAR corpus as the backbone dataset, while augmenting it with extra generated data using ChatGPT 4. GPT-4-1106 was operational from March 7, 2024, to April 15, 2024.
+
+## Overview on MADAR Corpus
+The MADAR Corpus (Bouamor et al., 2018) offers valuable parallel resources for various Arabic dialects. Comprising MADAR-5 (10,000 sentences in 5 city-level dialects) and MADAR-25 (2,000 sentences in 25 city-level dialects).
+You can take a deeper look and get the data from https://sites.google.com/nyu.edu/madar/.
 
 ## How to run the code
 ### Hardware
