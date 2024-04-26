@@ -5,5 +5,4 @@
 /MADAR.Parallel-Corpora-Public-Version1.1-25MAR2021
 hyperparametertuning.py
 Data_Augmentation.ipynb
-*.csv
 /finetuning/results
