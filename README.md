@@ -10,5 +10,8 @@ Adjust AraBERT.sh with the desired settings as follows:
   1) The first attribute is the path to the generated data from the previous step.
   2) The second attribute is a boolean to state whether the evaluation will be top-N (True) or Mean Reciprocal Rank (False).
   3) If the second attribute is True, then identify the N for the top-N evaluation in the third attribute.
-Simply run bash AraBERT.sh.
+Simply run bash `AraBERT.sh`.
 
+### Running inference on mt0-small and mt0-base
+cd inference
+adjust the
