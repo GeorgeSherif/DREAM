@@ -32,6 +32,6 @@ Simply run `bash AraBERT.sh`.
   3) `bash run_inference.sh`
 
 ### Finetuning mt0-small and mt0-base
-  1) `cd ../finetuning/` (Assuming you are in the inference folder)
+  1) `cd ../finetuning/` (Assuming you are in the ./inference directory)
   2) Adjust the model as your preference and add the path for the data, whether the one from MADAR Corpus or the augmented one. This script does the finetuning and the evaluation.
   3) `bash finetuning.sh`
