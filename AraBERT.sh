@@ -1,0 +1,1 @@
+python AraBERT.py ./Generated/Generated_merged.csv True --number_labels=3

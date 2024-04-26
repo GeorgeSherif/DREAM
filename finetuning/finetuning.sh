@@ -1,0 +1,1 @@
+python finetuning.py bigscience/mt0-small ./Augmented/MSA_EGY_Augmented.csv
