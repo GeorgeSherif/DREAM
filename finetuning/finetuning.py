@@ -107,7 +107,7 @@ if torch.cuda.is_available():
 print("Started translation")
 results = []
 
-dialect_target = df.columns[4]
+dialect_target = df.columns[3]
 print(dialect_target)
 
 for index, row in tqdm(df.iterrows(), total=df.shape[0], desc="Translating"):
