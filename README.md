@@ -4,7 +4,7 @@ This project aims to improve the capabilities of Large Language Models for rewri
 ## How to run the code
 ### Prelimnary steps
   1) `conda create -n DREAM python==3.10.0`
-  2) conda activate DREAM
+  2) `conda activate DREAM`
   3) `pip install -r requirements.txt`
      
 ### Generating new samples
