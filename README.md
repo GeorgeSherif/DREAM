@@ -7,7 +7,7 @@ You can take a deeper look and get the data from https://sites.google.com/nyu.ed
 
 ## How to run the code
 ### Hardware
-For some scripts in this repo we used RTX-4090 such as for all the notebooks in the inference directory and the ones in the main directory.
+For some scripts in this repo, we used RTX-4090 such as for all the notebooks in the inference directory and the ones in the main directory.
 For the scripts in the finetuning directory, we used a single A100 GPU.
 
 
@@ -17,7 +17,7 @@ For the scripts in the finetuning directory, we used a single A100 GPU.
   3) `pip install -r requirements.txt`
      
 ### Generating new samples
-Add your openAI key in the Data_Augmentation.py and modify the prompt to the desired dialects, and simply run it using `python Data_Augmentation.py`.
+Add your OpenAI key in the Data_Augmentation.py and modify the prompt to the desired dialects, and simply run it using `python Data_Augmentation.py`.
 
 ### Finetuning AraBERT
 Adjust AraBERT.sh with the desired settings as follows:
